@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>15</pointsize>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>0</y>
+      <width>251</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>URW Bookman [UKWN]</family>
+      <pointsize>24</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="lineWidth">
+     <number>3</number>
+    </property>
+    <property name="text">
+     <string>LCX Creditos</string>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>40</y>
+      <width>221</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>URW Bookman [UKWN]</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 0, 0)</string>
+    </property>
+    <property name="text">
+     <string>Apenas um treinamento</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>540</y>
+      <width>131</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>URW Bookman [UKWN]</family>
+      <pointsize>8</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Desenvolvido por CML</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>100</y>
+      <width>671</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>URW Bookman [UKWN]</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="lineWidth">
+     <number>3</number>
+    </property>
+    <property name="text">
+     <string>Editar Relatorios dos Clientes</string>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnalterar">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>440</y>
+      <width>701</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+</string>
+    </property>
+    <property name="text">
+     <string>Editar</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>250</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>URW Bookman [UKWN]</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>CPF</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>300</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>URW Bookman [UKWN]</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Idade</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="alterarRendaBruta">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>320</y>
+      <width>201</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="placeholderText">
+     <string>Apenas digitos</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="alterarCPF">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>270</y>
+      <width>181</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="inputMask">
+     <string>000.000.000-00</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="alterarIDADE">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>320</y>
+      <width>113</width>
+      <height>23</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="alterarNOME">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>270</y>
+      <width>211</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>250</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>URW Bookman [UKWN]</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>nome</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>300</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>URW Bookman [UKWN]</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Renda bruta</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>360</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>URW Bookman [UKWN]</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Situação</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="alterarSituacao">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>380</y>
+      <width>181</width>
+      <height>23</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>190</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>URW Bookman [UKWN]</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Id</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="alterarID">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>210</y>
+      <width>113</width>
+      <height>23</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>29</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
